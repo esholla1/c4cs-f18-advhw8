@@ -2,6 +2,8 @@
 
 import operator
 import math
+import sys
+from termcolor import colored, cprint
 
 def power_op(arg1, arg2):
     return (arg1 ** arg2)
