@@ -36,6 +36,8 @@ def calculate(myarg):
 def main():
     while True:
         result = calculate(input("rpn calc> "))
+        if result < 0:
+        	result=colored(result, 'red')
         print("Result: ", result)
 
 if __name__ == '__main__':
